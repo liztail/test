@@ -7,6 +7,7 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
+      - uses: action/checkout@v4
       - run: |
           echo $PWD
           ls -a
