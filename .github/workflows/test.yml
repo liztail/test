@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-      	  echo $PWD
-      	  ls -a
-	  git branch -a
+          echo $PWD
+          ls -a
+          git branch -a
